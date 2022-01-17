@@ -1,0 +1,92 @@
+/* SFONDO */
+.styledesktop{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* Spazio centrale nero */
+.quadrato{
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  width: 1150px;
+  height: 700px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Sistemazione logo + testo || HEADER */
+img{
+  width: 200px;
+  height: 90px;
+  margin-left: 450px;
+}
+
+h1{
+  color: #08dc04;
+  margin-left: 350px;
+}
+
+/* NAV */
+.style{
+  background-color: #08dc04;
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+}
+
+.centralall{
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* MAIN */
+.mainsize{
+  margin-left: 110px;
+}
+
+#rectangle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  display: inline-block;
+}
+
+.progressindicators1{
+  background-color: rgba(255, 180, 83, 0.8);
+  width: 400px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.edit{
+  font-size: 26px;
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.progressindicators2{
+  background-color: rgba(8, 220, 4, 0.8);
+  width: 600px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.progressindicators3{
+  background-color: rgba(255, 0, 0, 0.8);
+  width: 200px;
+  border-radius: 5px 5px 5px 5px;
+}
+/* CSS AVANZATI */
+h6, span{
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+}
+
+/* Come ascoltato a lezione ci sono cose che potevo evitare, come: meglio proprietà semplici che complicarsi la vita inserendo css avanzati e altro. Posso miglirare! parto sempre da zero praticamente:) */
